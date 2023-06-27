@@ -58,5 +58,5 @@ Sebagai seller di CariEO, Anda memiliki akses untuk melihat daftar produk EO yan
 - `cp .env.example .env`
 - Ubah ke `.env`
 - `php artisan key:generate`
-- Buat database `appointme` di PHP MyAdmin
+- Buat database `carieo` di PHP MyAdmin
 - `php artisan migrate`
