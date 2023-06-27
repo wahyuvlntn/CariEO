@@ -53,8 +53,8 @@ Sebagai seller di CariEO, Anda memiliki akses untuk melihat daftar produk EO yan
 
   
 ## Installation
-- `git clone <URL HTTPS Github>`
-- `cd .../appointme`
+- `git clone https://github.com/wahyuvlntn/tugas-akhir`
+- `cd .../tugas-akhir`
 - `composer install`
 - `cp .env.example .env`
 - Ubah ke `.env`
