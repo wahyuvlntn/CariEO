@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Kategori;
+use App\Models\Produk;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
-class UserController extends Controller
+class SellerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -88,4 +91,11 @@ class UserController extends Controller
     {
         //
     }
+
+    public function view(){
+        $kategoris = Kategori::all();
+        
+        $produks = Produk::where('id_user', Auth()->user()->id)->get();
+        return view('dashboard.index', compact('produks'), compact('kategoris'));
+    } 
 }

@@ -53,7 +53,7 @@
                                     acara mereka tanpa repot mencari vendor atau berkomunikasi langsung dengan mereka.
                                 </p>
                                 <div class="position-relative mt-4">
-                                <img src="/img/favicon.png" class="img-fluid rounded-4" alt="">
+                                <img src="/img/about1.png" class="img-fluid rounded-4" alt="">
                                 </div>
                             </div>
                         </div>
@@ -67,11 +67,12 @@
                 <div class="container">
                     <div class="clients-slider swiper">
                         <div class="swiper-wrapper align-items-center">
-                            <div class="swiper-slide"><img src="/img/clients/wedding1.jpg" style="height: 150px;" alt=""></div>
-                            <div class="swiper-slide"><img src="/img/clients/birthday1.jpg" style="height: 150px;" alt=""></div>
-                            <div class="swiper-slide"><img src="/img/clients/birthday2.jpg" style="height: 150px;" alt=""></div>
-                            <div class="swiper-slide"><img src="/img/clients/wedding2.jpg" style="height: 150px;" alt=""></div>
-                            <div class="swiper-slide"><img src="/img/clients/wedding3.jpg" style="height: 150px;" alt=""></div>
+                            <div class="swiper-slide"><img class="rounded" src="/img/home/wedding1.jpg" style="height: 150px;" alt=""></div>
+                            <div class="swiper-slide"><img class="rounded" src="/img/home/birthday1.jpg" style="height: 150px;" alt=""></div>
+                            <div class="swiper-slide"><img class="rounded" src="/img/home/birthday2.jpg" style="height: 150px;" alt=""></div>
+                            <div class="swiper-slide"><img class="rounded" src="/img/home/wedding2.jpg" style="height: 150px;" alt=""></div>
+                            <div class="swiper-slide"><img class="rounded" src="/img/home/wedding3.jpg" style="height: 150px;" alt=""></div>
+                            <div class="swiper-slide"><img class="rounded" src="/img/home/birthday3.jpg" style="height: 150px;" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -123,8 +124,8 @@
                         <div class="d-flex align-items-center">
                             <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
                             <div>
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
+                            <h3>Bang Girang</h3>
+                            <h4>Actor</h4>
                             <div class="stars">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
@@ -145,7 +146,7 @@
                         <div class="d-flex align-items-center">
                             <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
                             <div>
-                            <h3>Sara Wilsson</h3>
+                            <h3>Mbak Ayu</h3>
                             <h4>Designer</h4>
                             <div class="stars">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -167,8 +168,8 @@
                         <div class="d-flex align-items-center">
                             <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
                             <div>
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
+                            <h3>Neng Geulis</h3>
+                            <h4>Singer</h4>
                             <div class="stars">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
@@ -189,8 +190,8 @@
                         <div class="d-flex align-items-center">
                             <img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
                             <div>
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
+                            <h3>Babang Tampan</h3>
+                            <h4>Content Creator</h4>
                             <div class="stars">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
@@ -211,7 +212,7 @@
                         <div class="d-flex align-items-center">
                             <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
                             <div>
-                            <h3>John Larson</h3>
+                            <h3>Mas Cool</h3>
                             <h4>Entrepreneur</h4>
                             <div class="stars">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -244,7 +245,7 @@
                     <div class="content px-xl-5">
                     <h3>Frequently Asked <strong>Questions</strong></h3>
                     <p>
-                        Beberapa Pertanyaan umum yang sering diajukan mengenai hal-hal yang berkaitan dengan apa saja yang 
+                        Beberapa Pertanyaan umum yang sering diajukan mengenai hal-hal yang berkaitan dengan CariEO.
                     </p>
                     </div>
                 </div>

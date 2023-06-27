@@ -1,66 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+- Link Deploy : http://54.164.139.244/
+    - email admin = adminappointme@health.co.id
+    - password    = 123
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1>CariEO</h1>
 
-## About Laravel
+## Anggota Kelompok
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Pemrograman Website - C**
+1. Wahyu Valentino Marasitua     -   [215150207111071]
+2. Yosia Pangondian              -   [215150201111057]
+3. Stanislaus Frans Bernado      -   [215150200111009]
+4. Syarif Hidayatulloh           -   [215150207111084]
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Tugas Akhir Pemrograman Website
+Nama Website : CariEO
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+CariEO adalah sebuah website yang dirancang untuk memudahkan pengguna dalam mencari event organizer (EO) dan penyedia event organizer (EO) yang sesuai dengan kebutuhan mereka. Website ini menyediakan berbagai macam EO yang terdaftar di dalamnya, sehingga pengguna dapat memilih EO yang sesuai dengan kebutuhan mereka. Selain itu, website ini juga menyediakan fitur untuk membuat event baru, sehingga pengguna dapat membuat event sesuai dengan kebutuhan mereka. event organizer (EO) yang terdaftar di dalam website ini juga dapat membuat event baru, sehingga pengguna dapat melihat event yang tersedia di dalam EO tersebut.
 
-## Learning Laravel
+### 1. Role User:
+![ss beranda](https://github.com/tsabitamuthia/appointme/assets/97678433/13c3e94b-ec3d-45dd-99c5-ac86a1b406eb)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Sebagai User di CariEO, Anda memiliki akses untuk melihat daftar produk EO yang terdaftar di dalam website. Berikut adalah fitur-fitur yang tersedia untuk Anda:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- Login: Fitur Login pada User memungkinkan User untuk langsung tertuju ke halaman dashboard dengan menu jumlah EO, jumlah event, dan jumlah kategori.
+- Daftar Produk : Anda dapat melihat daftar produk EO yang terdaftar di dalam website. Fitur ini memungkinkan Anda untuk melihat daftar EO, melihat detail EO, dan melihat daftar event yang tersedia di dalam EO tersebut.
+- Daftar Kategori : Anda dapat melihat daftar kategori yang tersedia di dalam website. Fitur ini memungkinkan Anda untuk melihat daftar kategori, dan melihat daftar EO yang tersedia di dalam kategori tersebut.
+- Membuat Pesanan : Anda dapat membuat pesanan untuk event yang tersedia di dalam EO. Fitur ini memungkinkan Anda untuk membuat pesanan, melihat daftar pesanan, melihat detail pesanan, mengubah detail pesanan, dan menghapus pesanan jika diperlukan.
+- Edit Profile : Anda dapat mengubah informasi profil Anda. Fitur ini memungkinkan Anda untuk mengubah informasi profil, mengubah password, dan menghapus akun jika diperlukan.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 2. Role Seller:
+![dashboard](https://github.com/tsabitamuthia/appointme/assets/97678433/88c3bc10-1d33-4fc4-872e-55c41eda8a1b)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Sebagai seller di CariEO, Anda memiliki akses untuk melihat daftar produk EO yang terdaftar di dalam website. Berikut adalah fitur-fitur yang tersedia untuk Anda:
+- Login : Fitur Login pada Seller memungkinkan Seller untuk langsung tertuju ke halaman dashboard dengan melihat produk, dan jumlah event
+- Menambah Produk : Anda dapat menambahkan produk EO baru. Fitur ini memungkinkan Anda untuk menambahkan produk EO baru, melihat daftar produk EO, melihat detail produk EO, mengubah detail produk EO, dan menghapus produk EO jika diperlukan.
+- Melihat Pesanan : Anda dapat melihat daftar pesanan yang masuk. Fitur ini memungkinkan Anda untuk melihat daftar pesanan.
+- Edit Profile : Anda dapat mengubah informasi profil Anda. Fitur ini memungkinkan Anda untuk mengubah informasi profil, mengubah password, dan menghapus akun jika diperlukan.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Lampiran Beberapa *Screenshot*
+### Pasien
+**1. Login**
+![login](https://github.com/tsabitamuthia/appointme/assets/97678433/018d0d9c-7ec0-4c20-a554-496d9d2af1e7)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**3. Daftar Dokter**
+![dokters](https://github.com/tsabitamuthia/appointme/assets/97678433/5e1c70dd-f449-411b-9107-13834cefe042)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**4. Buat Janji**
+![janji](https://github.com/tsabitamuthia/appointme/assets/97678433/941ece16-222d-441e-aa1e-3c1444bb0db2)
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Admin
+**1. Data Pasien**
+![pasien](https://github.com/tsabitamuthia/appointme/assets/97678433/11e82124-01e2-4f02-9d99-84c676b0682f)
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**2. Detail Pasien**
+![detail](https://github.com/tsabitamuthia/appointme/assets/97678433/fc386930-dddb-4be9-b2ce-7070d9606d30)
+
+  
+## Installation
+- `git clone <URL HTTPS Github>`
+- `cd .../appointme`
+- `composer install`
+- `cp .env.example .env`
+- Ubah ke `.env`
+- `php artisan key:generate`
+- Buat database `appointme` di PHP MyAdmin
+- `php artisan migrate`

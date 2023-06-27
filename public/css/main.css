@@ -600,6 +600,7 @@ section {
     right: 0;
   }
 
+
   .mobile-nav-active .navbar:before {
     content: "";
     position: fixed;
@@ -1408,9 +1409,7 @@ section {
 /*--------------------------------------------------------------
 # Login
 --------------------------------------------------------------*/
-.login {
-  padding: 200px 0 200px 0;
-}
+
 
 .login h3 {
   font-weight: 700;

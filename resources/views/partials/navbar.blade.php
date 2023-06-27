@@ -24,12 +24,12 @@
         </a>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/#hero">Home</a></li>
+                <li><a href="/#about">About Us</a></li>
+                <li><a href="/#contact">Contact</a></li>
                 <li></li>
-                <a href="/register" class="nav-link {{ ($title === "register") ? 'active' : '' }}"><button class="btn btn-primary" type="button">Register</button></a>
-                <a href="/login" class="nav-link {{ ($title === "login") ? 'active' : '' }}"><button class="btn btn-primary" type="button">Login</button></a>
+                <a href="/register" class="nav-link {{ ($title === "register") ? 'active' : '' }}"><button class="btn btn-dark" type="button">Register</button></a>
+                <a href="/login" class="nav-link {{ ($title === "login") ? 'active' : '' }}"><button class="btn btn-light" type="button">Login</button></a>
             </ul>
         </nav><!-- .navbar -->
         
