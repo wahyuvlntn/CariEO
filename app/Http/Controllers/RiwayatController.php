@@ -92,6 +92,7 @@ class RiwayatController extends Controller
      */
     public function destroy(Pesanan $pesanan)
     {
-        //
+        Pesanan::destroy($pesanan->id_pesanan);
+        return redirect('/dashboardUser/riwayat');
     }
 }

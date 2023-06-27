@@ -109,24 +109,26 @@ Route::resource('/dashboardUser/ulangtahun', UlangtahunController::class)->middl
 Route::resource('/dashboardUser/farewell', FarewellController::class)->middleware('auth');
 Route::resource('/dashboardUser/konser', KonserController::class)->middleware('auth');
 
-Route::get('/dashboardUser/riwayat',function(){
-    $userId = auth()->user()->id;
+// Route::get('/dashboardUser/riwayat',function(){
+//     $userId = auth()->user()->id;
 
-        $pesanans = Pesanan::where('id_user', $userId)->get();
+//         $pesanans = Pesanan::where('id_user', $userId)->get();
         
-        // Mengambil id_produk dari setiap pesanan
-        $produkIds = $pesanans->pluck('id_produk')->toArray();
+//         // Mengambil id_produk dari setiap pesanan
+//         $produkIds = $pesanans->pluck('id_produk')->toArray();
 
-        // Mengambil data produk berdasarkan id_produk
-        $produks = Produk::whereIn('id_produk', $produkIds)->get();
-        return view('dashboardUser.riwayat.index',[
-            'pesanans' => $pesanans,
-            'produks' => $produks,
-            'seller' => User::all()
-        ]);
-})->middleware('auth');
-Route::get('/dashboard/riwayat', [RiwayatController::class, 'edit'])->middleware('auth');
-Route::put('/dashboard/riwayat/', [RiwayatController::class, 'update'])->middleware('auth');
-// Route::resource('/dashboardUser/riwayat', RiwayatController::class)->middleware('auth');
+//         // Mengambil data produk berdasarkan id_produk
+//         $produks = Produk::whereIn('id_produk', $produkIds)->get();
+//         return view('dashboardUser.riwayat.index',[
+//             'pesanans' => $pesanans,
+//             'produks' => $produks,
+//             'seller' => User::all()
+//         ]);
+// })->middleware('auth');
+// Route::get('/dashboard/riwayat', [RiwayatController::class, 'edit'])->middleware('auth');
+// Route::put('/dashboard/riwayat', [RiwayatController::class, 'update'])->middleware('auth');
+// Route::post('/dashboard/riwayat', [RiwayatController::class, 'destroy'])->middleware('auth');
+// Route::get('/dashboardUser/riwayat', [RiwayatController::class, 'index'])->middleware('auth');
+Route::resource('/dashboardUser/riwayat', RiwayatController::class)->middleware('auth');
 // Route::put('/dashboardUser/riwayat/{id}', [RiwayatController::class, 'update'])->name('dashboardUser.riwayat.update');
 //Route::resource('/dashboard/profile',UserController::class)->middleware('auth');
