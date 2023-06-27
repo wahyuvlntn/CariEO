@@ -59,7 +59,7 @@ class DashboardProductController extends Controller
     public function show(Produk $produk)
     {
         $produk = Produk::find($produk['id_produk']); // Mengambil data produk dengan id_produk 1
-
+        // return $produk;
         return view('dashboard.produk.show', compact('produk'));
     }
 

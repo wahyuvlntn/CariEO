@@ -28,8 +28,8 @@ class RegisterController extends Controller
             $validatedData['role']=2;
         };
         User::create($validatedData);   
-        
-        
+
+        return redirect('/login')->with('success','User created successfully.');
     }
 
 }

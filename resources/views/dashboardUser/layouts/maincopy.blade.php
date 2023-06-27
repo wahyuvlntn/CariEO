@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Buyer</title>
+    <title>{{ $title }}</title>
     <!-- Favicons -->
         <link href="/img/favicon.png" rel="icon">
         <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -19,30 +19,26 @@
         <link href="/vendor/aos/aos.css" rel="stylesheet">
         <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
         <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css"> 
 
         <!-- Template Main CSS File -->
         <link href="/css/main.css" rel="stylesheet">
-   
   </head>
   <body>
-    @include('dashboardUser.layouts.navbar')
+    @include('partials.navbar')
     <div>
-      @yield('container')   
+        @yield('container')     
     </div>
-    @include('dashboardUser.layouts.footer')
+    @include('partials.footer')
     <!-- Vendor JS Files -->
-    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="/vendor/aos/aos.js"></script>
         <script src="/vendor/glightbox/js/glightbox.min.js"></script>
         <script src="/vendor/purecounter/purecounter_vanilla.js"></script>
         <script src="/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
         <script src="/vendor/php-email-form/validate.js"></script>
-        <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
 
         <!-- Template Main JS File -->
         <script src="/js/main.js"></script>
-        <script src="/js/dashboard.js"></script>
-</body>
+  </body>
 </html>

@@ -17,19 +17,20 @@
 <!-- Navbar -->
 <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="/" class="logo d-flex align-items-center">
+        <a href="/dashboardUser" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         
         <h1>CariEO<span>.</span></h1>
         </a>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="/#hero">Home</a></li>
-                <li><a href="/#about">About Us</a></li>
-                <li><a href="/#contact">Contact</a></li>
-                <li></li>
-                <a href="/register" class="nav-link {{ ($title === "register") ? 'active' : '' }}"><button class="btn btn-dark" type="button">Register</button></a>
-                <a href="/login" class="nav-link {{ ($title === "login") ? 'active' : '' }}"><button class="btn btn-light" type="button">Login</button></a>
+                <li><a href="/dashboardUser/profile"><i class="bi bi-person-circle"></i> <span>Hello, {{ auth()->user()->name }}</span></a></li>
+                <li><a href="/dashboardUser/riwayat"><i class="bi bi-journal"></i> <span>Riwayat</span></a></li>
+                <form id="keluar" action="/logout" method="POST">
+                    @csrf
+                </form>
+                <li><a href="#" onclick="document.getElementById('keluar').submit();"><i class="bi bi-box-arrow-right"></i> <span>Log Out</span></a></li>
+                <li>
             </ul>
         </nav><!-- .navbar -->
         

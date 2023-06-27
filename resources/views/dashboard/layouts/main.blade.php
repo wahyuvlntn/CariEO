@@ -4,17 +4,27 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dashboard</title>
+    <title>Home Seller</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link href="/img/favicon.png" rel="icon">
+    <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    
-    
-    <!-- Custom styles for this template -->
-    <link href="/css/dashboard.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
-  <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css"> 
+
+    <!-- Template Main CSS File -->
+    <link href="/css/main.css" rel="stylesheet">
    
   </head>
   <body>
@@ -121,16 +131,25 @@
 </svg>
 
 @include('dashboard.layouts.header')
-
 <div class="container-fluid">
   <div class="row">
     @include('dashboard.layouts.sidebar')
-
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      @yield('container') 
+      @yield('container')
     </main>
   </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<script src="/js/dashboard.js"></script></body>
+<!-- Vendor JS Files -->
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/vendor/aos/aos.js"></script>
+<script src="/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/vendor/php-email-form/validate.js"></script>
+<script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/js/main.js"></script>
+<script src="/js/dashboard.js"></script>
+</body>
 </html>
