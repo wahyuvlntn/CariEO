@@ -1,6 +1,4 @@
 - Link Deploy : http://54.164.139.244/
-    - email admin = adminappointme@health.co.id
-    - password    = 123
 
 <h1>CariEO</h1>
 
@@ -18,7 +16,8 @@ Nama Website : CariEO
 CariEO adalah sebuah website yang dirancang untuk memudahkan pengguna dalam mencari event organizer (EO) dan penyedia event organizer (EO) yang sesuai dengan kebutuhan mereka. Website ini menyediakan berbagai macam EO yang terdaftar di dalamnya, sehingga pengguna dapat memilih EO yang sesuai dengan kebutuhan mereka. Selain itu, website ini juga menyediakan fitur untuk membuat event baru, sehingga pengguna dapat membuat event sesuai dengan kebutuhan mereka. event organizer (EO) yang terdaftar di dalam website ini juga dapat membuat event baru, sehingga pengguna dapat melihat event yang tersedia di dalam EO tersebut.
 
 ### 1. Role User:
-![ss beranda](https://github.com/tsabitamuthia/appointme/assets/97678433/13c3e94b-ec3d-45dd-99c5-ac86a1b406eb)
+![image](https://github.com/wahyuvlntn/tugas-akhir/assets/58659139/f0943677-428c-4aa0-972a-146a8f038401)
+
 
 Sebagai User di CariEO, Anda memiliki akses untuk melihat daftar produk EO yang terdaftar di dalam website. Berikut adalah fitur-fitur yang tersedia untuk Anda:
 
@@ -29,7 +28,7 @@ Sebagai User di CariEO, Anda memiliki akses untuk melihat daftar produk EO yang 
 - Edit Profile : Anda dapat mengubah informasi profil Anda. Fitur ini memungkinkan Anda untuk mengubah informasi profil, mengubah password, dan menghapus akun jika diperlukan.
 
 ### 2. Role Seller:
-![dashboard](https://github.com/tsabitamuthia/appointme/assets/97678433/88c3bc10-1d33-4fc4-872e-55c41eda8a1b)
+![image](https://github.com/wahyuvlntn/tugas-akhir/assets/58659139/f8d9d5fa-bd6f-4c81-9b23-e7e70ed2f1bb)
 
 
 Sebagai seller di CariEO, Anda memiliki akses untuk melihat daftar produk EO yang terdaftar di dalam website. Berikut adalah fitur-fitur yang tersedia untuk Anda:
@@ -41,25 +40,16 @@ Sebagai seller di CariEO, Anda memiliki akses untuk melihat daftar produk EO yan
 
 ## Lampiran Beberapa *Screenshot*
 ### Pasien
-**1. Login**
-![login](https://github.com/tsabitamuthia/appointme/assets/97678433/018d0d9c-7ec0-4c20-a554-496d9d2af1e7)
+**1. Landing Page**
+![image](https://github.com/wahyuvlntn/tugas-akhir/assets/58659139/b487a5ad-3b54-4242-a288-ffab9d548cdf)
 
 
-**3. Daftar Dokter**
-![dokters](https://github.com/tsabitamuthia/appointme/assets/97678433/5e1c70dd-f449-411b-9107-13834cefe042)
+**2. Login**
+![image](https://github.com/wahyuvlntn/tugas-akhir/assets/58659139/5266dea3-199b-46cd-8f69-09537ad60e96)
 
 
-**4. Buat Janji**
-![janji](https://github.com/tsabitamuthia/appointme/assets/97678433/941ece16-222d-441e-aa1e-3c1444bb0db2)
-
-
-### Admin
-**1. Data Pasien**
-![pasien](https://github.com/tsabitamuthia/appointme/assets/97678433/11e82124-01e2-4f02-9d99-84c676b0682f)
-
-
-**2. Detail Pasien**
-![detail](https://github.com/tsabitamuthia/appointme/assets/97678433/fc386930-dddb-4be9-b2ce-7070d9606d30)
+**3. Register**
+![image](https://github.com/wahyuvlntn/tugas-akhir/assets/58659139/f5041527-3ab0-4053-b622-3ff7616a97f0)
 
   
 ## Installation
