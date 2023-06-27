@@ -13,7 +13,7 @@
 ## Tugas Akhir Pemrograman Website
 Nama Website : CariEO
 
-CariEO adalah sebuah website yang dirancang untuk memudahkan pengguna dalam mencari event organizer (EO) dan penyedia event organizer (EO) yang sesuai dengan kebutuhan mereka. Website ini menyediakan berbagai macam EO yang terdaftar di dalamnya, sehingga pengguna dapat memilih EO yang sesuai dengan kebutuhan mereka. Selain itu, website ini juga menyediakan fitur untuk membuat event baru, sehingga pengguna dapat membuat event sesuai dengan kebutuhan mereka. event organizer (EO) yang terdaftar di dalam website ini juga dapat membuat event baru, sehingga pengguna dapat melihat event yang tersedia di dalam EO tersebut.
+CariEO merupakan sebuah platform online yang didesain untuk mempermudah pengguna dalam mencari dan menemukan penyelenggara acara (Event Organizer/EO) yang sesuai dengan kebutuhan mereka. Dengan menggunakan website ini, pengguna dapat dengan mudah menemukan berbagai macam EO yang terdaftar di platform tersebut, sehingga mereka dapat memilih EO yang paling sesuai dengan kebutuhan acara mereka. Selain itu, CariEO juga menyediakan fitur yang memungkinkan pengguna untuk membuat acara baru sesuai dengan keinginan dan kebutuhan mereka. Seluruh EO yang terdaftar di platform ini juga memiliki kemampuan untuk membuat dan mempromosikan acara baru, sehingga pengguna dapat melihat berbagai acara yang tersedia di setiap EO tersebut.
 
 ### 1. Role User:
 ![image](https://github.com/wahyuvlntn/tugas-akhir/assets/58659139/f0943677-428c-4aa0-972a-146a8f038401)
@@ -39,7 +39,6 @@ Sebagai seller di CariEO, Anda memiliki akses untuk melihat daftar produk EO yan
 
 
 ## Lampiran Beberapa *Screenshot*
-### Pasien
 **1. Landing Page**
 ![image](https://github.com/wahyuvlntn/tugas-akhir/assets/58659139/b487a5ad-3b54-4242-a288-ffab9d548cdf)
 
